@@ -22,9 +22,6 @@ class DropDownButton: UIButton {
         
         setImage(UIImage(named: "Triangle"), for: UIControlState())
         tintColor = triangleColor
-        
-        sizeToFit()
-        
         titleEdgeInsets = UIEdgeInsets(top: 0, left: -imageRect(forContentRect: bounds).width, bottom: 0, right: 0)
         imageEdgeInsets = UIEdgeInsets(top: 0, left: triangleLeftPos, bottom: -2, right: 0)
     }

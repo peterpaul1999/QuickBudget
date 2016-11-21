@@ -2,7 +2,7 @@
 //  Item+CoreDataProperties.swift
 //  QuickBudget
 //
-//  Created by Thomas Karg on 19.11.16.
+//  Created by Thomas Karg on 21.11.16.
 //  Copyright © 2016 Thomas Karg. All rights reserved.
 //
 
@@ -18,7 +18,7 @@ extension Item {
 
     @NSManaged public var date: NSDate?
     @NSManaged public var desc: String?
-    @NSManaged public var price: NSDecimalNumber?
+    @NSManaged public var price: Double
     @NSManaged public var category: Category?
 
 }

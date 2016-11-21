@@ -53,6 +53,9 @@
                                         <real key="value" value="170"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="selectDate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XPA-o5-QbU"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Button Cross" translatesAutoresizingMaskIntoConstraints="NO" id="oUc-6z-eSP">
                                 <rect key="frame" x="25" y="356" width="325" height="295"/>
@@ -74,6 +77,9 @@
                                 <rect key="frame" x="23" y="294" width="24" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="CancelIcon"/>
+                                <connections>
+                                    <action selector="clearPrice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kQx-Yi-Z7O"/>
+                                </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lbc-AH-EHz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -90,6 +96,9 @@
                                                 <state key="normal" title="close">
                                                     <color key="titleColor" red="0.10469774901866913" green="0.56774449348449707" blue="0.44576418399810791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="closeDatePicker:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uD0-UL-YOc"/>
+                                                </connections>
                                             </button>
                                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qjm-Eh-7Z5">
                                                 <rect key="frame" x="0.0" y="44" width="375" height="216"/>
@@ -104,6 +113,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Qjm-Eh-7Z5" id="MZb-kn-pB3"/>
+                        <outlet property="datePickerView" destination="lbc-AH-EHz" id="l8B-C7-bRm"/>
+                        <outlet property="priceLabel" destination="YLE-q5-A90" id="8MB-NW-U6F"/>
+                        <outlet property="selectDateButton" destination="Jne-Rg-4Sd" id="RLv-vF-XLF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

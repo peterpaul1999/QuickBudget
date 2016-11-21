@@ -95,7 +95,8 @@ class DatabaseModelController {
                     let shortItem = NSEntityDescription.insertNewObject(forEntityName: "ShortItem", into: DatabaseController.getContext()) as! ShortItem
                     
                     shortItem.desc = result["desc"] as? String
-                    shortItem.price = result["price"] as? NSDecimalNumber
+                    shortItem.price = (result["price"] as? Double)!
+                    print(shortItem.price)
                     shortItem.category = category
                 }
             }

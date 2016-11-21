@@ -10,14 +10,15 @@
 		BA1AF1B41DE2232400DA20A9 /* categories.json in Resources */ = {isa = PBXBuildFile; fileRef = BA1AF1B31DE2232400DA20A9 /* categories.json */; };
 		BA5A69E51DE3720500E35786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5A69E41DE3720500E35786 /* Main.storyboard */; };
 		BA5A69E71DE372BC00E35786 /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A69E61DE372BC00E35786 /* DropDownButton.swift */; };
-		BA88EC2F1DE0EA2100BAA89A /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC291DE0EA2100BAA89A /* Item+CoreDataClass.swift */; };
-		BA88EC301DE0EA2100BAA89A /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC2A1DE0EA2100BAA89A /* Item+CoreDataProperties.swift */; };
-		BA88EC311DE0EA2100BAA89A /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC2B1DE0EA2100BAA89A /* Category+CoreDataClass.swift */; };
-		BA88EC321DE0EA2100BAA89A /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC2C1DE0EA2100BAA89A /* Category+CoreDataProperties.swift */; };
-		BA88EC331DE0EA2100BAA89A /* ShortItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC2D1DE0EA2100BAA89A /* ShortItem+CoreDataClass.swift */; };
-		BA88EC341DE0EA2100BAA89A /* ShortItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC2E1DE0EA2100BAA89A /* ShortItem+CoreDataProperties.swift */; };
 		BA88EC371DE0EA4B00BAA89A /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC361DE0EA4B00BAA89A /* DatabaseController.swift */; };
 		BA88EC391DE0F37E00BAA89A /* DatabaseModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA88EC381DE0F37E00BAA89A /* DatabaseModelController.swift */; };
+		BA9FF9311DE384E800A5D4AF /* ShortAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9301DE384E800A5D4AF /* ShortAddButton.swift */; };
+		BA9FF93A1DE392AC00A5D4AF /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9341DE392AC00A5D4AF /* Category+CoreDataClass.swift */; };
+		BA9FF93B1DE392AC00A5D4AF /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9351DE392AC00A5D4AF /* Category+CoreDataProperties.swift */; };
+		BA9FF93C1DE392AC00A5D4AF /* ShortItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9361DE392AC00A5D4AF /* ShortItem+CoreDataClass.swift */; };
+		BA9FF93D1DE392AC00A5D4AF /* ShortItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9371DE392AC00A5D4AF /* ShortItem+CoreDataProperties.swift */; };
+		BA9FF93E1DE392AC00A5D4AF /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9381DE392AC00A5D4AF /* Item+CoreDataClass.swift */; };
+		BA9FF93F1DE392AC00A5D4AF /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9FF9391DE392AC00A5D4AF /* Item+CoreDataProperties.swift */; };
 		BAFF4E611DE0E40C00557F6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF4E601DE0E40C00557F6B /* AppDelegate.swift */; };
 		BAFF4E631DE0E40C00557F6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF4E621DE0E40C00557F6B /* ViewController.swift */; };
 		BAFF4E661DE0E40C00557F6B /* Main2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF4E641DE0E40C00557F6B /* Main2.storyboard */; };
@@ -49,14 +50,15 @@
 		BA1AF1B31DE2232400DA20A9 /* categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categories.json; sourceTree = "<group>"; };
 		BA5A69E41DE3720500E35786 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BA5A69E61DE372BC00E35786 /* DropDownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
-		BA88EC291DE0EA2100BAA89A /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BA88EC2A1DE0EA2100BAA89A /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		BA88EC2B1DE0EA2100BAA89A /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BA88EC2C1DE0EA2100BAA89A /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		BA88EC2D1DE0EA2100BAA89A /* ShortItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShortItem+CoreDataClass.swift"; sourceTree = "<group>"; };
-		BA88EC2E1DE0EA2100BAA89A /* ShortItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShortItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BA88EC361DE0EA4B00BAA89A /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
 		BA88EC381DE0F37E00BAA89A /* DatabaseModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseModelController.swift; sourceTree = "<group>"; };
+		BA9FF9301DE384E800A5D4AF /* ShortAddButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortAddButton.swift; sourceTree = "<group>"; };
+		BA9FF9341DE392AC00A5D4AF /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BA9FF9351DE392AC00A5D4AF /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA9FF9361DE392AC00A5D4AF /* ShortItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShortItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BA9FF9371DE392AC00A5D4AF /* ShortItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShortItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA9FF9381DE392AC00A5D4AF /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BA9FF9391DE392AC00A5D4AF /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BAFF4E5D1DE0E40C00557F6B /* QuickBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF4E601DE0E40C00557F6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAFF4E621DE0E40C00557F6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,12 +103,12 @@
 		BA88EC351DE0EA2C00BAA89A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BA88EC291DE0EA2100BAA89A /* Item+CoreDataClass.swift */,
-				BA88EC2A1DE0EA2100BAA89A /* Item+CoreDataProperties.swift */,
-				BA88EC2B1DE0EA2100BAA89A /* Category+CoreDataClass.swift */,
-				BA88EC2C1DE0EA2100BAA89A /* Category+CoreDataProperties.swift */,
-				BA88EC2D1DE0EA2100BAA89A /* ShortItem+CoreDataClass.swift */,
-				BA88EC2E1DE0EA2100BAA89A /* ShortItem+CoreDataProperties.swift */,
+				BA9FF9341DE392AC00A5D4AF /* Category+CoreDataClass.swift */,
+				BA9FF9351DE392AC00A5D4AF /* Category+CoreDataProperties.swift */,
+				BA9FF9361DE392AC00A5D4AF /* ShortItem+CoreDataClass.swift */,
+				BA9FF9371DE392AC00A5D4AF /* ShortItem+CoreDataProperties.swift */,
+				BA9FF9381DE392AC00A5D4AF /* Item+CoreDataClass.swift */,
+				BA9FF9391DE392AC00A5D4AF /* Item+CoreDataProperties.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -145,6 +147,7 @@
 				BAFF4E6F1DE0E40C00557F6B /* Info.plist */,
 				BAFF4E671DE0E40C00557F6B /* QuickBudget.xcdatamodeld */,
 				BA5A69E61DE372BC00E35786 /* DropDownButton.swift */,
+				BA9FF9301DE384E800A5D4AF /* ShortAddButton.swift */,
 				BA88EC361DE0EA4B00BAA89A /* DatabaseController.swift */,
 				BA88EC381DE0F37E00BAA89A /* DatabaseModelController.swift */,
 			);
@@ -307,17 +310,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA5A69E71DE372BC00E35786 /* DropDownButton.swift in Sources */,
+				BA9FF93B1DE392AC00A5D4AF /* Category+CoreDataProperties.swift in Sources */,
+				BA9FF93A1DE392AC00A5D4AF /* Category+CoreDataClass.swift in Sources */,
+				BA9FF93C1DE392AC00A5D4AF /* ShortItem+CoreDataClass.swift in Sources */,
 				BA88EC371DE0EA4B00BAA89A /* DatabaseController.swift in Sources */,
+				BA9FF93F1DE392AC00A5D4AF /* Item+CoreDataProperties.swift in Sources */,
 				BA88EC391DE0F37E00BAA89A /* DatabaseModelController.swift in Sources */,
-				BA88EC321DE0EA2100BAA89A /* Category+CoreDataProperties.swift in Sources */,
-				BA88EC341DE0EA2100BAA89A /* ShortItem+CoreDataProperties.swift in Sources */,
+				BA9FF93E1DE392AC00A5D4AF /* Item+CoreDataClass.swift in Sources */,
 				BAFF4E691DE0E40C00557F6B /* QuickBudget.xcdatamodeld in Sources */,
-				BA88EC311DE0EA2100BAA89A /* Category+CoreDataClass.swift in Sources */,
-				BA88EC331DE0EA2100BAA89A /* ShortItem+CoreDataClass.swift in Sources */,
+				BA9FF93D1DE392AC00A5D4AF /* ShortItem+CoreDataProperties.swift in Sources */,
+				BA9FF9311DE384E800A5D4AF /* ShortAddButton.swift in Sources */,
 				BAFF4E631DE0E40C00557F6B /* ViewController.swift in Sources */,
-				BA88EC2F1DE0EA2100BAA89A /* Item+CoreDataClass.swift in Sources */,
 				BAFF4E611DE0E40C00557F6B /* AppDelegate.swift in Sources */,
-				BA88EC301DE0EA2100BAA89A /* Item+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

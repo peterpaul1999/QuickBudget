@@ -1,0 +1,52 @@
+{
+	"category": [
+		{		
+			"name": "Eating",
+			"shortItem": [
+				{
+					"desc": "Big Lunch",
+					"price": 3.80
+				},
+				{
+					"desc": "White Chocolate Cookie",
+					"price": 1.10
+				},
+				{
+					"desc": "Breakfast",
+					"price": 1.40
+				}
+			]
+		},
+		{
+			"name": "Drinking",
+			"shortItem": [
+				{
+					"desc": "Lemonade",
+					"price": 1.20
+				},
+				{
+					"desc": "Espresso Macchiato",
+					"price": 1.10
+				},
+			]
+		},
+		{		
+			"name": "Others",
+			"shortItem": [
+				{
+					"desc": "Small App",
+					"price": 0.99
+				},
+				{
+					"desc": "One Way Berlin - Pdm",
+					"price": 3.30
+				},
+				{
+					"desc": "Newspaper",
+					"price": 2.00
+				}
+			]
+		}
+	]
+
+}
